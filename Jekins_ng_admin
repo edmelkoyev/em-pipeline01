@@ -3,5 +3,5 @@ node {
     git url: 'git@github.com:edmelkoyev/em-ng-admin.git'
 
     stage 'Build'
-    sh 'npm install'
+    cmd 'npm install'
 }
